@@ -16,7 +16,8 @@
 
 ## Logiciels utilisés
 
-* logiciel X Version xx.xx *Logiciel Y Version yy.yy
+* logiciel X Version xx.xx 
+* Logiciel Y Version yy.yy
 
 ## Utilisation
 
