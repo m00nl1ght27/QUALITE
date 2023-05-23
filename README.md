@@ -1,5 +1,5 @@
 # Projet X   	
-![](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fsearch%2Fnyan-cat-gifs&psig=AOvVaw1QWQmQlDi1oj3k-36wclV8&ust=1684940827327000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKiKs-7bi_8CFQAAAAAdAAAAABAE)
+![.](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fsearch%2Fnyan-cat-gifs&psig=AOvVaw1QWQmQlDi1oj3k-36wclV8&ust=1684940827327000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKiKs-7bi_8CFQAAAAAdAAAAABAE)
 ## cdp : Romain Desriac
 
 [Description brève du projet]
