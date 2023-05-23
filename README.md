@@ -1,5 +1,5 @@
 # Projet X
-## cdp : Prenom Nom
+## cdp : Romain Desriac
 
 [Description brève du projet]
 
