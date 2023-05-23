@@ -3,7 +3,7 @@ on:
   push: #testplop
     branches:
       - main # the name of your main branch
-  pull_request:
+  pull_request: # qsddsqsdd
     types: [opened, synchronize, reopened]
 jobs:
   build:
