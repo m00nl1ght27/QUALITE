@@ -2,7 +2,7 @@
 ![.](https://github.com/m00nl1ght27/QUALITE/blob/main/cat-nyan-cat.gif)
 ## cdp : Romain Desriac
 
-[Description brève du projet]
+Site internet pour récupérer des information d'utilisateur, ces informations sont stockées sur une BDD.
 
 ## Table des matières
 
@@ -20,12 +20,13 @@
 
 ## Logiciels
 
-* Visual Studio Code Version xx.xx 
-* Logiciel Y Version yy.yy
+* Visual Studio Code 1.78
+* MariaDB Serveur 11.2
 
 ## Utilisation
 
-[Instructions sur la manière d'utiliser le projet ou l'exécuter. Inclure des exemples de commandes ou de fonctionnalités clés.]
+Une fois sur le site en local, rentrer les informations dans les champs correspondants.
+Quand vous cliquerez sur "enregistrer", cela envoie 
 
 ## Syntaxe
 
@@ -44,10 +45,11 @@ Nom des fonction :
 
 ## A_faire
 
-| Tâches         | DeadLine   |
-|----------------|------------|
-| Tâche X        | XX/XX/XXXX |
-| Tâche Y        | YY/YY/YYYY |   
+| Tâches                         | DeadLine   |
+|--------------------------------|------------|
+| améliorer l'animation du NCat  | 26/05/2023 |
+| intérger la fonction de scroll | 25/05/2023 |
+| Finir la BDD                   | 25/05/2023 |   
 
 ## Fini
 
