@@ -7,10 +7,10 @@
 ## Table des matières
 
 - [Installation](#installation)
-- [Logiciels utilisés](#Logiciels utilisés)
+- [Logiciels utilisés](#Logiciels)
 - [Utilisation](#utilisation)
 - [Syntaxe](#syntaxe)
-- [Personnes présente sur le projet](#Personnes présente sur le projet)
+- [Personnes présente sur le projet](#Personnes)
 - [Tâches à réalisées](#Tâches à réalisées)
 - [Tâches finalisées](#Tâches finalisées)
 
@@ -18,7 +18,7 @@
 
 [Instructions d'installation du projet. Inclure les prérequis, les étapes d'installation et les dépendances nécessaires.]
 
-## Logiciels utilisés
+## Logiciels
 
 * Visual Studio Code Version xx.xx 
 * Logiciel Y Version yy.yy
@@ -32,7 +32,7 @@
 Nom des variable :
 Nom des fonction :
 
-## Personnes présente sur le projet
+## Personnes
 
 | Personne       | Rôle                             |
 |----------------|----------------------------------|
