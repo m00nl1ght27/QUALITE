@@ -1,4 +1,4 @@
-# Projet X   	
+# Projet NCat  	
 ![.](https://github.com/m00nl1ght27/QUALITE/blob/main/cat-nyan-cat.gif)
 ## cdp : Romain Desriac
 
@@ -7,9 +7,12 @@
 ## Table des matières
 
 - [Installation](#installation)
+- [Logiciels utilisés](#Logiciels utilisés)
 - [Utilisation](#utilisation)
-- [Contribuer](#contribuer)
-- [Licence](#licence)
+- [Syntaxe](#syntaxe)
+- [Personnes présente sur le projet](#Personnes présente sur le projet)
+- [Tâches à réalisées](#Tâches à réalisées)
+- [Tâches finalisées](#Tâches finalisées)
 
 ## Installation
 
@@ -17,7 +20,7 @@
 
 ## Logiciels utilisés
 
-* logiciel X Version xx.xx 
+* Visual Studio Code Version xx.xx 
 * Logiciel Y Version yy.yy
 
 ## Utilisation
@@ -26,7 +29,19 @@
 
 ## Syntaxe
 
-## personne présente sur le projet
+Nom des variable :
+Nom des fonction :
+
+## Personnes présente sur le projet
+
+| Personne       | Rôle                             |
+|----------------|----------------------------------|
+| Romain Desriac | Chef de projet                   |
+| Camille Herve  | Responsable Kenkins              |
+| Kleden Bizien  | responsable SonarQube            |
+| Gaël Bouillies | Responsable front-end / back-end |
+| Hugo Faigner   | Respinsable GitHub               |
+
 
 ## Tâches à réalisées
 
