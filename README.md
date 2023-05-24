@@ -11,8 +11,8 @@
 - [Utilisation](#utilisation)
 - [Syntaxe](#syntaxe)
 - [Personnes présente sur le projet](#Personnes)
-- [Tâches à réalisées](#Tâches à réalisées)
-- [Tâches finalisées](#Tâches finalisées)
+- [Tâches à réalisées](#réalisées)
+- [Tâches finalisées](#finalisées)
 
 ## Installation
 
