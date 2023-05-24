@@ -2,7 +2,7 @@
  
 import argparse
  
-'''FUNCTIONS'''
+'''FUNCTIONS''
 def get_Number(string_Hex_Chain):
         converted_Number = ''
         for i in range(0,len(string_Hex_Chain),2):
@@ -18,7 +18,7 @@ def decypher_PDU_SMS(UD_String):
         for i in range(0,len(UD_String),2):
                 liste_Hex.append(UD_String[i:i+2])
  
-        bin_String = ""
+        bin_String = "
         for hex_Number in liste_Hex:
                 bin_Number_String = "{0:08b}".format(int(hex_Number, 16))
                 bin_String = bin_Number_String + bin_String
@@ -32,7 +32,7 @@ def decypher_PDU_SMS(UD_String):
         return decoded_SMS_Message
  
 def get_Date(string_Hex_Chain):
-        converted_Date = ''
+        converted_Date = '
         for i in range(0,len(string_Hex_Chain),2):
                 converted_Date = converted_Date + ''.join(string_Hex_Chain[i:i+2][::-1]) + '/' 
         converted_Date = converted_Date[0:len(converted_Date)-1]
@@ -53,7 +53,7 @@ def get_GMT(string_Hex_Chain):
         return converted_GMT
  
  
-'''MAIN PROGRAM'''
+'''MAIN PROGRAM''
 if __name__ == '__main__':
         # On crée un parser pour rappeler qu'il faut renseigner le fichier PNG en argument
         parser = argparse.ArgumentParser(description='PDU Interpreter from Fwed')
@@ -118,6 +118,6 @@ if __name__ == '__main__':
         print("Date : %s" %(time_Date))
         print("Heure : %s" %(time_Hour))
         print("Fuseau horaire (GMT) : +%s" %(time_GMT))
-        print("Taille du message (nombre de septets, en hexa): %s" %(TP_UDL))
-        print("Message SMS : %s" %(decoded_SMS))
+        print("Taille du message (nombre de septets, en hexa): %s %(TP_UDL))
+        print("Message SMS  %s" %(decoded_SMS))
 
