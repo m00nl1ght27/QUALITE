@@ -8,6 +8,7 @@ Site internet pour récupérer des information d'utilisateur, ces informations s
 
 - [Installation](#installation)
 - [Logiciels utilisés](#Logiciels)
+- [Plugin Kenkins](#Plugins)
 - [Utilisation](#utilisation)
 - [Syntaxe](#syntaxe)
 - [Personnes présente sur le projet](#Personnes)
@@ -22,6 +23,14 @@ Site internet pour récupérer des information d'utilisateur, ces informations s
 
 * Visual Studio Code 1.78
 * MariaDB Serveur 11.2
+
+* SonarQube 10.0
+* Jenkins 2.405
+
+## Plugins
+
+* SonarQube Scanner for Jenkins Version 2.15 
+* Parameterized Scheduler Version 1.2
 
 ## Utilisation
 
