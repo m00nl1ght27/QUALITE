@@ -37,11 +37,10 @@ Nom des fonction :
 | Personne       | Rôle                             |
 |----------------|----------------------------------|
 | Romain Desriac | Chef de projet                   |
-| Camille Herve  | Responsable Kenkins              |
+| Camille Herve  | Responsable Jenkins              |
 | Kleden Bizien  | responsable SonarQube            |
 | Gaël Bouillies | Responsable front-end / back-end |
 | Hugo Faigner   | Respinsable GitHub               |
-
 
 ## Tâches à réalisées
 
