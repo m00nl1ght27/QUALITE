@@ -24,6 +24,9 @@
 
 [Instructions sur la manière d'utiliser le projet ou l'exécuter. Inclure des exemples de commandes ou de fonctionnalités clés.]
 
+## Syntaxe
+
+## personne présente sur le projet
 
 ## Tâches à réalisées
 
