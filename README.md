@@ -11,7 +11,7 @@
 - [Utilisation](#utilisation)
 - [Syntaxe](#syntaxe)
 - [Personnes présente sur le projet](#Personnes)
-- [Tâches à réalisées](#a faire)
+- [Tâches à réalisées](#A_faire)
 - [Tâches finalisées](#Fini)
 
 ## Installation
@@ -42,7 +42,7 @@ Nom des fonction :
 | Gaël Bouillies | Responsable front-end / back-end |
 | Hugo Faigner   | Respinsable GitHub               |
 
-## A faire
+## A_faire
 
 | Tâches         | DeadLine   |
 |----------------|------------|
