@@ -58,10 +58,14 @@ Nom des fonction :
 | Tâche X        | Prenom Nom    | XX/XX/XXXX            | Description X |
 | Tâche Y        | Prenom Nom    | YY/YY/YYYY            | Description Y | 
 
-## Version X.X
+## Version 1.02
 
-[Description des différentes features, correction de bug, et bug connu de la version.]
+Ajout de la fonction dark mode
 
-## Version Y.Y
+## Version 1.01
 
-[Description des différentes features, correction de bug, et bug connu de la version.]
+Ajout du NCat
+
+## Version 1.0
+
+Sorti du site dans sa version la plus basic
