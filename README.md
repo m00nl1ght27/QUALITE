@@ -44,10 +44,11 @@ Quand vous cliquerez sur "enregistrer", cela envoie
 
 | Machine                         | utilisation   |
 |--------------------------------|------------|
-| Debian 11   | 26/05/2023 |
-| conteneur SonarQube | 25/05/2023 |
-| conteneur Jenkins                   | 25/05/2023 |
-| conteneur                    | 25/05/2023 | 
+| Debian 11   | heberge les conteneur docker |
+| conteneur SonarQube | verification du github hebergent les version du site |
+| conteneur Jenkins                   | verification du github hebergent les version du site |
+| conteneur NGinx| deploiment du site | 
+| conteneur MariaDB | stokage des données | 
 
 ## Syntaxe
 
