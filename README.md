@@ -72,7 +72,9 @@ Nom des fonction :
 | améliorer l'animation du NCat  | 26/05/2023 | Ajouter un NCat en plus poour une double rotation | 4 |
 | intérger la fonction de scroll | 25/05/2023 | Ajout de la possibilité de scroll quand on est zoomer| 2 |
 | Finir la BDD                   | 25/05/2023 | Finaliser le liens entre la bdd et la front-end | 4|
-| Fin du projet                   | 25/05/2023 | Finir toute les autre étapes | 4 |
+| Fin du projet                   | 26/05/2023 | Finir toute les autre étapes | 4 |
+| envoie mail automatique         | 26/05/2023 | Parametrer l'envoie de mail automatioque en cas de build failed |1|
+
 
 ## Fini
 
