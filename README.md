@@ -62,10 +62,17 @@ Nom des fonction :
 
 ## Fini
 
-| Tâches         | Responsable   | Derniére modification | Description   |
-|----------------|---------------|-----------------------|---------------|
-| Tâche X        | Prenom Nom    | XX/XX/XXXX            | Description X |
-| Tâche Y        | Prenom Nom    | YY/YY/YYYY            | Description Y | 
+| Tâches         | Responsable   | Derniére modification |
+|----------------|---------------|-----------------------|
+| Mise en place du github       | Romain Desriac    | 23/05/2023            |
+| Mise en place conteneur        | Camille Herve   |  23/05/2023            |
+| Mise en place font-end / back-end        | Gaël Bouillies    | 23/05/2023           |
+| Mise en place du SonarQube      | Romain Desriac    | 23/05/2023            |
+| Initialisation gihub        | Hugo Faigner   |  23/05/2023            |
+| Mise en place infrastructure Azure      | Kleden Bizien    |  23/05/2023           |
+| Mise en place bdd       | Gaël Bouillies    | 24/05/2023           |
+| Initialisation ReadMe       | Hugo Faigner   |  24/05/2023            |
+| Mise en place Jenkin        | Kleden Bizien &  Camille Herve  |  24/05/2023           |
 
 ## Version 1.02
 
