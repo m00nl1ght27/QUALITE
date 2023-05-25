@@ -58,7 +58,8 @@ Nom des fonction :
 |--------------------------------|------------|
 | améliorer l'animation du NCat  | 26/05/2023 |
 | intérger la fonction de scroll | 25/05/2023 |
-| Finir la BDD                   | 25/05/2023 |   
+| Finir la BDD                   | 25/05/2023 |
+| Fin du projet                   | 25/05/2023 | 
 
 ## Fini
 
