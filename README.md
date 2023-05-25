@@ -88,8 +88,8 @@ Nom des fonction :
 | Mise en place du github             | Romain DESRIAC                                 | 23/05/2023            |
 | Mise en place conteneur             | Camille HERVE                                  | 23/05/2023            |
 | Mise en place front-end / back-end  | Gaël BOUILLIES 	                               | 23/05/2023            |
-| Mise en place SonarQube 	          | Camille HERVE                                  | 23/05/2023            |
-| Initialisation github 	            | Hugo FAIGNER 	                                 | 23/05/2023            |
+| Mise en place SonarQube 	          | Romain DESRIAC                                 | 23/05/2023            |
+| Initialisation github 	            | Romain DESRIAC 	                               | 23/05/2023            |
 | Mise en place infrastructure Azure  | Kleden BIZIEN                                  | 23/05/2023            |
 | Mise en place bdd 	                | Gaël BOUILLIES                                 |	24/05/2023           |
 | Creation ReadMe 	                  | Hugo FAIGNER                                   |	24/05/2023           |
