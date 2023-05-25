@@ -8,7 +8,7 @@ Site internet pour récupérer des information d'utilisateur, ces informations s
 
 - [Installation](#installation)
 - [Logiciels utilisés](#Logiciels)
-- [Plugin Kenkins](#Plugins)
+- [Plugin Jenkins](#Plugins)
 - [Utilisation](#utilisation)
 - [Syntaxe](#syntaxe)
 - [Personnes présente sur le projet](#Personnes)
