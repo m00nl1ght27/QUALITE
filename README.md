@@ -22,24 +22,37 @@ Site internet pour récupérer des information d'utilisateur, ces informations s
 
 installation de docker docker : 
 
-`sudo apt update `
-`sudo apt upgrade `
-`sudo apt install docker.io `
-`sudo curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`
-`sudo chmod +x /usr/local/bin/docker-compose`
-`sudo systemctl start docker`
-`sudo systemctl enable docker`
+`sudo apt update `  
+
+`sudo apt upgrade `  
+
+`sudo apt install docker.io `  
+
+`sudo curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`  
+
+`sudo chmod +x /usr/local/bin/docker-compose`  
+
+`sudo systemctl start docker`  
+
+`sudo systemctl enable docker`  
+
 
 Installation de Jenkins et sonarQube sur docker : 
 
-`sudo docker pull sonarqube`
-`sudo docker pull jenkins/jenkins`
+`sudo docker pull sonarqube`  
 
-`sudo docker start sonarqube`
-`sudo docker start jenkins`
+`sudo docker pull jenkins/jenkins`  
 
-`sudo docker restart sonarqube`
-`sudo docker restart jenkins`
+
+`sudo docker start sonarqube`  
+
+`sudo docker start jenkins`  
+
+
+`sudo docker restart sonarqube`  
+
+`sudo docker restart jenkins`  
+
 
 ## Logiciels
 
