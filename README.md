@@ -40,6 +40,13 @@ Quand vous cliquerez sur "enregistrer", cela envoie
 
 ## Infrastructure
 
+| Machine                         | utilisation   |
+|--------------------------------|------------|
+| Debian 11   | 26/05/2023 |
+| conteneur SonarQube | 25/05/2023 |
+| conteneur Jenkins                   | 25/05/2023 |
+| conteneur                    | 25/05/2023 | 
+
 ## Syntaxe
 
 Nom des variable :
