@@ -48,7 +48,7 @@ conteneur Jenkins 	verification du github, heberge les version du site
 NGinx 	deploiment du site
 conteneur MariaDB 	stokage des données
 
-### Perc
+### Spec
 
 * Systeme d'exploitation : Debian 11
 * Architecture : x64
