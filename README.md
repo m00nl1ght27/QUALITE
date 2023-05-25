@@ -54,12 +54,12 @@ Quand vous cliquerez sur "enregistrer", cela envoie
 | conteneur MariaDB | stokage des données | 
 
 ### Perc
-* Systeme d'exploitation : Debian 11*
-* Architecture : x64*
-* Nombre de processeur : 2*
-* RAM : 8Gio*
-* Type de stockage : SSD premium LRS*
-* Espace de stockage : 30Go*
+* Systeme d'exploitation : Debian 11
+* Architecture : x64
+* Nombre de processeur : 2
+* RAM : 8Gio
+* Type de stockage : SSD premium LRS
+* Espace de stockage : 30Go
 
 ![.](https://github.com/m00nl1ght27/QUALITE/blob/main/image.png)
 
