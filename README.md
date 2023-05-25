@@ -1,115 +1,162 @@
-# Projet NCat  	
-![.](https://github.com/m00nl1ght27/QUALITE/blob/main/cat-nyan-cat.gif)
-## cdp : Romain Desriac
+# OWASP Top-10 - quickstart your security awareness
 
-Site internet pour récupérer des information d'utilisateur, ces informations sont stockées sur une BDD. Avec correction du code par SonarQube & Jenkins
+This repo contains the code examples shared in my [DevConf.us 2020 talk](https://devconfus2020.sched.com/event/eb6835469f571956a331b8382b8ca0a9).
 
-## Table des matières
+Recordings:
+- [Pre-recorded talk](https://www.youtube.com/watch?v=Unf-U_hPpH4)
+- [DevConf.US recording](https://www.youtube.com/watch?v=6Z5hlgZQQt0)
 
-- [Installation](#installation)
-- [Logiciels utilisés](#Logiciels)
-- [Plugin Jenkins](#Plugins)
-- [Utilisation](#utilisation)
-- [infrastructure](#Infrastructure)
-- [Syntaxe](#syntaxe)
-- [Personnes présente sur le projet](#Personnes)
-- [Tâches à réalisées](#A_faire)
-- [Tâches finalisées](#Fini)
+Slides:
+[SlideShare](https://www.slideshare.net/AllonMureinik/devconfus-2020-owasp-top-10-allon-mureinik)
+
+## Warning
+
+These demos contain intentionally vulnerable code.
+
+Do not run any of them on a machine which can be accessed by external users.
+
+## Prerequisites
+1. [Git](https://git-scm.com/) - For cloning the repo
+2. [npm](https://www.npmjs.com/get-npm)
+3. [curl](https://curl.haxx.se/) - Not required for running the demo, but some instructions use it
 
 ## Installation
 
-[Instructions d'installation du projet. Inclure les prérequis, les étapes d'installation et les dépendances nécessaires.]
+Clone the repository:
+```
+git clone https://github.com/mureinik/owasp-top10-demo.git
+```
 
-## Logiciels
+Install the dependencies:
+```
+npm install
+```
 
-* Visual Studio Code 1.78
-* MariaDB Serveur 11.2
-* NGinx 1.18
+## Demos
 
-* SonarQube 10.0
-* Jenkins 2.405
+### A1:2017 - Injection
 
-## Plugins
+Run the Log Injection demo:
+```
+node logi.js
+```
 
-* SonarQube Scanner for Jenkins Version 2.15 
-* Parameterized Scheduler Version 1.2
-* OWASP Markup Formatter version 159.v25b_c67cs35fb
+Send a payload of the form `username=XYZ logged in.\nABC&password=123`:
 
-## Utilisation
+```
+curl -d $'username=allon logged in with the password: fakepassword.\nmureinik&password=123' http://localhost:3000/logi
+```
 
-Une fois sur le site en local, rentrer les informations dans les champs correspondants.
-Quand vous cliquerez sur "enregistrer", cela envoie 
+You'll see two log in messages in the application's console.
 
-## Infrastructure
+### A2:2017 - Broken Authentication
 
-| Machine                         | utilisation   |
-|--------------------------------|------------|
-| Debian 11   | heberge les conteneurs docker |
-| conteneur SonarQube | verification du github, heberge les versions du site |
-| conteneur Jenkins                   | verification du github, heberge les version du site |
-| NGinx| deploiment du site | 
-| conteneur MariaDB | stokage des données | 
+Run the login demo:
+```
+node logi.js
+```
 
-### Spec
-* Systeme d'exploitation : Debian 11
-* Architecture : x64
-* Nombre de processeur : 2
-* RAM : 8Gio
-* Type de stockage : SSD premium LRS
-* Espace de stockage : 30Go
+Open your browser and navigate to http://localhost:3000/logi.html. As you can easily see, any combination of username
+and password will be accepted by the system. A proper system should have real user management implemented.
 
+### A3:2017 Sensitive data exposure
 
-![.](https://github.com/m00nl1ght27/QUALITE/blob/main/image.png)
+Run the login demo:
+```
+node logi.js
+```
 
-## Syntaxe
+Open your browser and navigate to http://localhost:3000/logi.html. You can use any combination of username and password
+to log in, and the password will be presented in plain text in the application's console.
 
-Nom des variable :
-Nom des fonction :
+### A4:2017 XML External Entities (XXE)
 
-## Personnes
+Run the XXE demo:
+```
+node logi.js
+```
 
-| Personne       | Rôle                             |
-|----------------|----------------------------------|
-| Romain Desriac | Chef de projet                   |
-| Camille Herve  | Responsable Jenkins              |
-| Kleden Bizien  | responsable SonarQube            |
-| Gaël Bouillies | Responsable front-end / back-end |
-| Hugo Faigner   | Respinsable GitHub               |
+Send a payload with the following form:
+```
+curl -d '<!DOCTYPE foo [<!ENTITY xxe SYSTEM "/full/path/to/owasp-top10-demo/secret.txt">]><name>&xxe;</name>' http://localhost:3000/xxe
+```
 
-## A_faire
+And you should get back the **contents** of the [secret.txt](secret.txt) file, i.e., `THIS IS A SECRET!!!`.
 
-| Tâches                         | DeadLine   | description | criticité |
-|--------------------------------|------------|-------------|-----------|
-| améliorer l'animation du NCat  | 26/05/2023 | Ajouter un NCat en plus poour une double rotation | 4 |
-| intérger la fonction de scroll | 25/05/2023 | Ajout de la possibilité de scroll quand on est zoomer| 2 |
-| Finir la BDD                   | 25/05/2023 | Finaliser le liens entre la bdd et la front-end | 4|
-| Fin du projet                   | 26/05/2023 | Finir toute les autre étapes | 4 |
-| envoie mail automatique         | 26/05/2023 | Parametrer l'envoie de mail automatioque en cas de build failed en ouvrant le port 25 |1|
+### A5:2017 Broken Access Control
 
+Run the session demo:
+```
+node session.js
+```
 
-## Fini
+If you use your browser to navigate to http://localhost:3000/data you'll get an error stating `not logged in`, which is 
+expected.
 
-| Tâches         | Responsable   | Derniére modification |
-|----------------|---------------|-----------------------|
-| Mise en place du github       | Romain Desriac    | 23/05/2023            |
-| Mise en place conteneur        | Camille Herve   |  23/05/2023            |
-| Mise en place font-end / back-end        | Gaël Bouillies    | 23/05/2023           |
-| Mise en place du SonarQube      | Romain Desriac    | 23/05/2023            |
-| Initialisation github        | Hugo Faigner   |  23/05/2023            |
-| Mise en place infrastructure Azure      | Kleden Bizien    |  23/05/2023           |
-| Mise en place bdd       | Gaël Bouillies    | 24/05/2023           |
-| Initialisation ReadMe       | Hugo Faigner   |  24/05/2023            |
-| Mise en place Jenkin        | Kleden Bizien &  Camille Herve  |  24/05/2023           |
-| Initialisation plugin Jenkin        | Romain Desriac    | 23/05/2023            |
+You can navigate to http://localhost:3000/session.html and use the credentials `user1`/`password1` to log in, after
+which you'll be redirected to http://localhost:3000/data?username=user1 and we that user's data. Similarly, you can use
+the credentials `user2`/`password2`, and will see a different set of data. However, if you log in as `user1`, you could
+manually navigate to http://localhost:3000/data?username=user2, and will see that user's data.
 
-## Version 1.02
+In other words, this demo implements **authentication**, but does not implement **authorization**.
 
-Ajout de la fonction dark mode
+### A6:2017 Security Misconfiguration
 
-## Version 1.01
+There are several security misconfigurations in these demos. A few obvious ones include:
+- All the demos serve HTTP and not HTTPS
+- [xxe.js](xxe.js) sets `noent: true` when creating the libxmljs parser, thus making the demo vulnerable to XXE
+- [session.js](session.js) uses Express Session, but uses the default configuration (e.g., it doesn't set the `secure` or `maxAge` properties)
 
-Ajout du NCat
+### A7:2017 Cross-Site Scripting (XSS)
 
-## Version 1.0
+Run the XSS demo:
+```
+node xss.js
+```
 
-Sorti du site dans sa version la plus basic
+If you use your browser to navigate to http://localhost:3000/xss, you'll see a comments form where you could add your
+opinion of DevConf.us and view previous comments
+
+Send a payload of the following form:
+```
+curl -X POST -d 'comment=<script>window.location.replace("https://github.com/mureinik/owasp-top10-demo")</script>' http://localhost:3000/xss
+```
+
+The next time you navigate to http://localhost:3000/xss, you'll be redirected to this README page.
+
+### A8:2017 Insecure Deserialization
+
+Run the keys demo:
+```
+node keys.js
+```
+
+Send a payload containing a function definition followed by a `()`:
+```
+curl -X POST -H "Content-Type: text/plain" -d '{"key": "_$$ND_FUNC$$_function (){ console.log(\"unserialized!\"); }()"}' http://localhost:3000/keys
+```
+
+You'll see the text "userialized!" printed out in the application's console, proving that arbitrary code could be
+executed. Of course, you could use more malicious code than `console.log`.
+
+### A9:2017 Using Components with Known Vulnerabilities
+
+Run an audit:
+```
+npm audit
+```
+
+You will see the vulnerable packages this project depends on.
+
+### A10:2017 Insufficient Logging & Monitoring
+
+Run the session demo:
+```
+node session.js
+```
+
+Use your browser to navigate to http://localhost:3000/session.html. 
+
+If you use the wrong credentials (e.g., `wronguser`/`wrongpassword`) you'll get an error message, but nothing will be
+logged.
+In fact, this "application" doesn't even have any real logs. 
