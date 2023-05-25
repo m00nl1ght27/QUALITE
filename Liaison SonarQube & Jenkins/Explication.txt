@@ -1,0 +1,10 @@
+Première étape dans SonarQube (Generation_du_Token.png) :
+- On va créer un projet 
+- On génère un Token
+
+Deuxième étape dans Jenkins (Configuration_Sonarqube_serveur_Jenkins.png) : 
+- Dans 'Administrer Jenkins' et 'Configurer Système', dans la partie SonarQube Server, mettre l'adresse URL du seveur Sonarqube
+- Puis 'Ajouter' et 'Jenkins'
+
+Troisème étape dans Jenkins (Credentials_Sonarqube_Jenkins.png) :
+- Prendre la valeur du token créé dans SonarQube et le mettre dans l'onglet 'Secret' puis 'Ajouter'
