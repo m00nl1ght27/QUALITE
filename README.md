@@ -8,8 +8,9 @@ Site internet pour récupérer des information d'utilisateur, ces informations s
 
 - [Installation](#installation)
 - [Logiciels utilisés](#Logiciels)
-- [Plugin Kenkins](#Plugins)
+- [Plugin Jenkins](#Plugins)
 - [Utilisation](#utilisation)
+- [Infrastructure](#Infrastructure)
 - [Syntaxe](#syntaxe)
 - [Personnes présente sur le projet](#Personnes)
 - [Tâches à réalisées](#A_faire)
@@ -81,13 +82,6 @@ Sorti du site dans sa version la plus basic
 
 
 
-Projet NCat
-
-.
-cdp : Romain Desriac
-
-Site internet pour récupérer des information d'utilisateur, ces informations sont stockées sur une BDD. Avec correction du code par SonarQube & Jenkins
-Table des matières
 
 [Installation](#Installation)
 [Logiciels utilisés](#Logiciels utilisés)
