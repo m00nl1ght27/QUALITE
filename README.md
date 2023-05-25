@@ -2,7 +2,7 @@
 ![.](https://github.com/m00nl1ght27/QUALITE/blob/main/cat-nyan-cat.gif)
 ## cdp : Romain Desriac
 
-Site internet pour récupérer des information d'utilisateur, ces informations sont stockées sur une BDD.
+Site internet pour récupérer des information d'utilisateur, ces informations sont stockées sur une BDD. Avec correction du code par SonarQube & Jenkins
 
 ## Table des matières
 
