@@ -48,6 +48,8 @@ Installation de Jenkins et sonarQube sur docker :
 
 [Configuration du build Jenkins](https://github.com/m00nl1ght27/QUALITE/tree/main/Config%20Build%20Jenkins)
 
+![.](https://github.com/m00nl1ght27/QUALITE/blob/main/image.png)
+
 ## Logiciels
 
 * Visual Studio Code 1.78
