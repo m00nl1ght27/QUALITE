@@ -75,6 +75,8 @@ conteneur Jenkins 	verification du github, heberge les version du site
 NGinx 	deploiment du site
 conteneur MariaDB 	stokage des données
 
+![.](https://github.com/m00nl1ght27/QUALITE/blob/main/image.png?raw=true)
+
 ### Spec
 
 * Systeme d'exploitation : Debian 11
