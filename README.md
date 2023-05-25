@@ -46,9 +46,9 @@ Installation de Jenkins et sonarQube sur docker :
 `sudo docker restart sonarqube`  
 `sudo docker restart jenkins`  
 
-[Configuration du build Jenkins](https://github.com/m00nl1ght27/QUALITE/tree/main/Config%20Build%20Jenkins)
-
 [Liaison entre SonarQube et Jenkins](https://github.com/m00nl1ght27/QUALITE/tree/main/LIaison%20SonarQube%20%26%20Jenkins)
+
+[Configuration du build Jenkins](https://github.com/m00nl1ght27/QUALITE/tree/main/Config%20Build%20Jenkins)
 
 ![.](https://github.com/m00nl1ght27/QUALITE/blob/main/Setting-up-Continuous-Integration-With-GitLab-Jenkins-and-SonarQube.png)
 
