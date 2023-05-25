@@ -46,6 +46,7 @@ Installation de Jenkins et sonarQube sur docker :
 `sudo docker restart sonarqube`  
 `sudo docker restart jenkins`  
 
+[Configuration du build Jenkins](url ici)
 
 ## Logiciels
 
