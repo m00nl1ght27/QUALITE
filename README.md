@@ -16,9 +16,6 @@ Site internet pour récupérer des information d'utilisateur, ces informations s
 - [Tâches à réalisées](#A_faire)
 - [Tâches finalisées](#Fini)
 
-## Spec
-
-
 ## Installation
 
 [Instructions d'installation du projet. Inclure les prérequis, les étapes d'installation et les dépendances nécessaires.]
@@ -53,13 +50,14 @@ Quand vous cliquerez sur "enregistrer", cela envoie
 | NGinx| deploiment du site | 
 | conteneur MariaDB | stokage des données | 
 
-### Perc
+### Spec
 * Systeme d'exploitation : Debian 11
 * Architecture : x64
 * Nombre de processeur : 2
 * RAM : 8Gio
 * Type de stockage : SSD premium LRS
 * Espace de stockage : 30Go
+
 
 ![.](https://github.com/m00nl1ght27/QUALITE/blob/main/image.png)
 
