@@ -88,8 +88,8 @@ conteneur MariaDB 	stokage des données
 
 ## Syntaxe
 
-Nom des variable :
-Nom des fonction :
+Nom des variables : sans maj avec des underscores pour espace   
+Nom des fonctions : Avec maj avec des underscores pour espace et un comentaire explicatif au dessus 
 
 ## Personnes
 
