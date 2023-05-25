@@ -83,15 +83,19 @@ Nom des fonction :
 
 ## Fini
 
-| Tâches                             | Responsable       | Derniére modification | Description   |
-|------------------------------------|-------------------|-----------------------|---------------|
-| Mise en place du github            | Romain DESRIAC    | 23/05/2023            | Description X |
-| Mise en place conteneur            | Camille HERVE     | 23/05/2023            | Description Y |
-| Mise en place font-end / back-end  | Gaël BOUILLIES 	 | 23/05/2023            | Description   |
-| Mise en place du SonarQube 	     | Romain DESRIAC    | 23/05/2023            | Description   |
-| Initialisation github 	         | Hugo Faigner 	 | 23/05/2023            | Description   |
-| Mise en place infrastructure Azure | Kleden Bizien     | 23/05/2023            | Description   |
-
+| Tâches                              | Responsable                                    | Derniére modification | Description   |
+|-------------------------------------|------------------------------------------------|-----------------------|---------------|
+| Mise en place du github             | Romain DESRIAC                                 | 23/05/2023            | Description X |
+| Mise en place conteneur             | Camille HERVE                                  | 23/05/2023            | Description Y |
+| Mise en place front-end / back-end  | Gaël BOUILLIES 	                               | 23/05/2023            | Description   |
+| Mise en place SonarQube 	           | Camille HERVE                                  | 23/05/2023            | Description   |
+| Initialisation github 	             | Hugo FAIGNER 	                                 | 23/05/2023            | Description   |
+| Mise en place infrastructure Azure  | Kleden BIZIEN                                  | 23/05/2023            | Description   |
+| Mise en place bdd 	                 | Gaël BOUILLIES                                 |	24/05/2023            | Descritpion   |
+| Creation ReadMe 	                   | Hugo FAIGNER                                   |	24/05/2023            | Description   |
+| Mise en place Jenkins               |	Kleden BIZIEN & Camille HERVE                  |	24/05/2023            | Description   |
+| Installation des plugins Jenkins    | Romain DESRIAC & Camille HERVE & Kleden BIZIEN |	23/05/2023            | Description   |
+| Connexion entre Jenkins & SonarQube | Kleden BIZIEN & Camille HERVE                  | 24/05/2023            | Description   |
 
 ## Version 1.02
 
@@ -102,33 +106,5 @@ Ajout de la fonction dark mode
 Ajout du NCat
 
 ## Version 1.0
-
-Sorti du site dans sa version la plus basic
-
-
-
-
-
-
-
- 	26/05/2023 	Parametrer l'envoie de mail automatioque en cas de build failed en ouvrant le port 25 	1
-Fini
-Tâches 	Responsable 	Derniére modification
-
- 	
-
-
-
-Mise en place bdd 	Gaël Bouillies 	24/05/2023
-Initialisation ReadMe 	Hugo Faigner 	24/05/2023
-Mise en place Jenkin 	Kleden Bizien & Camille Herve 	24/05/2023
-Initialisation plugin Jenkin 	Romain Desriac 	23/05/2023
-Version 1.02
-
-Ajout de la fonction dark mode
-Version 1.01
-
-Ajout du NCat
-Version 1.0
 
 Sorti du site dans sa version la plus basic
