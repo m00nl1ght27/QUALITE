@@ -50,6 +50,8 @@ Quand vous cliquerez sur "enregistrer", cela envoie
 | NGinx| deploiment du site | 
 | conteneur MariaDB | stokage des données | 
 
+![.](https://github.com/m00nl1ght27/QUALITE/blob/main/image.png)
+
 ## Syntaxe
 
 Nom des variable :
