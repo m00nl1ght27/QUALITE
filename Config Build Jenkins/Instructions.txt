@@ -1,0 +1,6 @@
+
+1- Config général : Selection du project github avec un lien vers votre github
+2- Gestion du code source : Renseignement du git ciblé, ainsi que la branche ciblé
+3- Ce qui déclenche le build : Créaion d'un planning, ici lancement tous les 5 minutes
+4- Build steps : Propriété de l'analyse pour le scan de SonarQube
+5- Action à la suite du build : Création des destinataires des mails en cas de build failed
