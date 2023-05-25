@@ -73,6 +73,7 @@ Nom des fonction :
 | Mise en place bdd       | Gaël Bouillies    | 24/05/2023           |
 | Initialisation ReadMe       | Hugo Faigner   |  24/05/2023            |
 | Mise en place Jenkin        | Kleden Bizien &  Camille Herve  |  24/05/2023           |
+| Initialisation plugin Jenkin        | Romain Desriac    | 23/05/2023            |
 
 ## Version 1.02
 
