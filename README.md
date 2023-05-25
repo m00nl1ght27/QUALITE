@@ -24,6 +24,7 @@ Site internet pour récupérer des information d'utilisateur, ces informations s
 
 * Visual Studio Code 1.78
 * MariaDB Serveur 11.2
+* NGinx 1.18
 
 * SonarQube 10.0
 * Jenkins 2.405
