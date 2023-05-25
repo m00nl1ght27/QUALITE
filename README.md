@@ -69,7 +69,7 @@ Nom des fonction :
 | Mise en place conteneur        | Camille Herve   |  23/05/2023            |
 | Mise en place font-end / back-end        | Gaël Bouillies    | 23/05/2023           |
 | Mise en place du SonarQube      | Romain Desriac    | 23/05/2023            |
-| Initialisation gihub        | Hugo Faigner   |  23/05/2023            |
+| Initialisation github        | Hugo Faigner   |  23/05/2023            |
 | Mise en place infrastructure Azure      | Kleden Bizien    |  23/05/2023           |
 | Mise en place bdd       | Gaël Bouillies    | 24/05/2023           |
 | Initialisation ReadMe       | Hugo Faigner   |  24/05/2023            |
