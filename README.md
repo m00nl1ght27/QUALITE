@@ -13,7 +13,7 @@ Site internet pour récupérer des information d'utilisateur, ces informations s
 - [Infrastructure](#Infrastructure)
 - [Syntaxe](#syntaxe)
 - [Personnes présente sur le projet](#Personnes)
-- [Tâches à réalisées](#A_faire)
+- [Tâches à réalisées](#A-faire)
 - [Tâches finalisées](#Fini)
 
 ## Installation
@@ -101,7 +101,7 @@ Nom des fonction :
 | Gaël Bouillies | Responsable front-end / back-end |
 | Hugo Faigner   | Respinsable GitHub               |
 
-## A_faire
+## A faire
 
 | Tâches                         | Description                                                        | DeadLine   | Criticité |
 |--------------------------------|--------------------------------------------------------------------|------------|-----------|
