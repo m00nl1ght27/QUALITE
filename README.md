@@ -6,6 +6,7 @@ Site internet pour récupérer des information d'utilisateur, ces informations s
 
 ## Table des matières
 
+- [Spec de la machine](#Spec de la machine)
 - [Installation](#installation)
 - [Logiciels utilisés](#Logiciels)
 - [Plugin Jenkins](#Plugins)
