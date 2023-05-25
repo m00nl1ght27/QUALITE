@@ -44,10 +44,10 @@ Quand vous cliquerez sur "enregistrer", cela envoie
 
 | Machine                         | utilisation   |
 |--------------------------------|------------|
-| Debian 11   | heberge les conteneur docker |
-| conteneur SonarQube | verification du github hebergent les version du site |
-| conteneur Jenkins                   | verification du github hebergent les version du site |
-| conteneur NGinx| deploiment du site | 
+| Debian 11   | heberge les conteneurs docker |
+| conteneur SonarQube | verification du github, heberge les versions du site |
+| conteneur Jenkins                   | verification du github, heberge les version du site |
+| NGinx| deploiment du site | 
 | conteneur MariaDB | stokage des données | 
 
 ## Syntaxe
